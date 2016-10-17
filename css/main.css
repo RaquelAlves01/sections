@@ -20,3 +20,8 @@ img {
   display: block;
     margin: 0 auto 1rem auto;
 }
+
+h1 {
+  text-align: left;
+}
+
