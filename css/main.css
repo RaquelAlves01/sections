@@ -23,10 +23,16 @@ img {
 }
 
 h1 {
+  padding: 1em;
   text-align: left;
 }
 
 p {
+  padding: .4em 0.75em 0.5em;
+  text-align: left;
+}
+
+div {
   text-align: left;
 }
 
