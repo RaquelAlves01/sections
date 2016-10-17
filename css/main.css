@@ -38,9 +38,10 @@ div {
 
 div a {
   display: inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
+  padding: 1em;
+  background-color: #882;
   border-radius: 4px;
+  border-color: #666;
   color: #000;
   text-decoration: none;
 }
