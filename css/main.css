@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  background-color: #fff;
+  background-color: #828;
   line-height: 1.5;
   margin: 0;
+
 }
 
 *, *::before, *::after {
@@ -30,6 +31,7 @@ h1 {
 p {
   padding: .4em 0.75em 0.5em;
   text-align: left;
+  background-color: 384;
 }
 
 div {
@@ -40,8 +42,8 @@ div a {
   display: inline-block;
   padding: 1em;
   background-color: #882;
-  border-radius: 4px;
-  border-color: #666;
+  border: 3px solid #234;
+  border-radius: 3px;
   color: #000;
   text-decoration: none;
 }
