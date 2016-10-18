@@ -40,8 +40,9 @@ body {
   background-color: #fff;
 }
 
-.text p {
-  padding: .4em 0.75em 0.5em;
+p {
+  padding: 2em;
+  margin: 1.5rem;
   text-align: left;
   background-color: 384;
 }
