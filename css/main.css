@@ -18,27 +18,37 @@ body {
   text-align: center;
 }
 
-img {
+.image img {
   display: block;
+    margin: auto;
     padding: 2em;
+    width: 100%;
+    text-align: center;
 }
 
-h1 {
+.text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.text h1 {
+  display: inline-block;
+  margin: 1.5rem;
+  max-width: 25em;
+  padding: 2em;
+  font-weight: bold;
   padding: 1em;
   text-align: left;
 }
 
-p {
+.text p {
   padding: .4em 0.75em 0.5em;
   text-align: left;
   background-color: 384;
 }
 
-div {
-  text-align: left;
-}
-
-div a {
+.text nav a {
   display: inline-block;
   padding: 1em;
   background-color: #882;
