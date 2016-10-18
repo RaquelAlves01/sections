@@ -34,10 +34,10 @@ body {
   display: inline-block;
   margin: 1.5rem;
   max-width: 25em;
-  padding: 2em;
-  font-weight: bold;
   padding: 1em;
+  font-weight: bold;
   text-align: left;
+  background-color: #fff;
 }
 
 .text p {
