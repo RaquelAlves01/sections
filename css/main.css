@@ -1,12 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  margin: 2 auto;
-  color: #333;
-  background-color: #f2f2f2;
-  text-align: center;
-  max-width: 25em;
-
 }
 
 *, *::before, *::after {
@@ -14,63 +7,75 @@ html {
 }
 
 body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   list-style-type: none;
-  margin: 2rem;
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
-.image > img {
-  display: inline-block;
-  margin: auto;
-  max-width: 25em;
-  padding: 0.4em 0.75em 0.5em;
+img {
+  display: block;
   width: 100%;
 }
 
-.text {
+.image {
   display: inline-block;
-  max-width: 25em;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+  max-width: 25rem;
+  width: 100%;
   vertical-align: middle;
 }
 
-.text h1 {
-  font-family: "Lato", sans-serif;
+div {
   display: inline-block;
-  margin: 1rem .5rem;
+  vertical-align: middle;
+  max-width: 25em;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 700;
+  display: inline-block;
   max-width: 25em;
   padding: 0;
-  font-weight: bold;
-  text-align: left;
+  text-align: center;
   background-color: #f2f2f2;
+  padding-bottom: 0;
+  margin-top: 0;
 }
 
 p {
-  padding: 0;
-  margin: 1rem .5rem;
-  text-align: left;
-  background-color: #f2f2f2;
-  line-height: 1.5;
-}
-
-nav a {
   display: inline-block;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #fff;
-  border: 3px solid #333;
-  border-radius: 10px;
-  color: #333;
-  text-align: left;
-  text-decoration: none;
-  font-size: 1rem;
+  max-width: 25em;
+  padding-top: 0;
+  margin-top:0;
 }
 
-nav a:hover {
+.text {
+  vertical-align: middle;
+  margin-top: -5em;
+  padding: 5rem 0;
+  display: inline-block;
+}
+
+a:hover {
   background-color: #666;
 }
 
-main p {
+.btn {
+  padding: 0.75rem;
+}
 
+div a {
+  font-weight: 700;
+  padding: 0.5rem;
+  border: 3px solid #333;
+  border-radius: 7px;
+  color: #333;
+  text-align: left;
+  vertical-align: middle;
+  text-decoration: none;
 }
