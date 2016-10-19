@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  margin: auto;
+  margin: 2 auto;
   color: #333;
   background-color: #f2f2f2;
   text-align: center;
@@ -15,7 +15,7 @@ html {
 
 body {
   list-style-type: none;
-  margin: 0;
+  margin: 2rem;
 }
 
 .image > img {
