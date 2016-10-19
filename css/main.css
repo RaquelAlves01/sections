@@ -51,7 +51,7 @@ p {
   display: inline-block;
   max-width: 25em;
   padding-top: 0;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .text {
@@ -61,21 +61,21 @@ p {
   display: inline-block;
 }
 
-a:hover {
-  background-color: #666;
-}
-
 .btn {
-  padding: 0.75rem;
+  padding: .75rem;
 }
 
 div a {
   font-weight: 700;
-  padding: 0.5rem;
+  padding: .5rem;
   border: 3px solid #333;
   border-radius: 7px;
   color: #333;
   text-align: left;
   vertical-align: middle;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #666;
 }
