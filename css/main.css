@@ -8,7 +8,6 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
   list-style-type: none;
   margin: 0;
   padding: 1rem;
@@ -37,7 +36,6 @@ div {
 }
 
 h2 {
-  font-weight: 700;
   display: inline-block;
   max-width: 25em;
   padding: 0;
@@ -66,7 +64,6 @@ p {
 }
 
 div a {
-  font-weight: 700;
   padding: .5rem;
   border: 3px solid #333;
   border-radius: 7px;
